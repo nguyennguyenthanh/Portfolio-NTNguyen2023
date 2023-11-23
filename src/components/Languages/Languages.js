@@ -1,33 +1,44 @@
 import React from 'react';
 import './languages.css';
+import BS4 from './../assets/images/Bs4.jpg';
+import Antd from './../assets/images/Antd.jpg';
+
 
 const Languages = () => {
   const data = [
     {
-      title: "Languages",
-      contents: ['Python', 'Nodejs', 'SQL', 'Javascript']
-    },
-    {
       title: "Software",
-      contents: ['Vscode', 'Tableau']
+      contents: ['Vscode'],
+      images: [BS4, Antd],
     },
     {
-      title: "Database",
-      contents: ['PostgresQL', 'AWS', 'MongoDB']
+      title: "Languages",
+      contents: ['Javascript'],
+      images: [BS4, Antd],
+    },
+    {
+      title: "HTML/CSS",
+      contents: ['Bootstrap4', 'SCSS', 'Tailwind CSS'],
+      images: [BS4, Antd],
+    },
+    {
+      title: "Framework/Lib",
+      contents: ['ReactJs', 'NextJs', 'Ant Design', 'Styled-component', 'Masterial UI'],
+      images: [BS4, Antd],
     },
   ]
 
-  
+
   return (
-    <section id="languages"  data-aos="fade">
+    <section id="languages" data-aos="fade">
       {
-        data?.map((item, index) => (
+        data?.map(item => (
           <div key={item.title} className="languages-box">
             <h3>{item.title}</h3>
             <ul>
               {
                 item.contents.map(content => (
-                  <li key={content}>{content}</li>
+                  <li key={content}>{item.images.map(img => (<img key={img} src={img} alt="img" width={20} />))}{content}</li>
                 ))
               }
             </ul>

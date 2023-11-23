@@ -9,11 +9,6 @@ const Carrer = () => {
       name: 'Software',
       year: '2022 - 2023'
     },
-    {
-      title: "Back-end Developer",
-      name: 'Software',
-      year: '2022 - 2023'
-    },
   ]
 
   const educations = [

@@ -8,7 +8,7 @@ const Home = () => {
     <section id="home">
       <div className="home-text" data-aos="fade-down">
         <strong>Hello, it's me</strong>
-        <h1>DevTN VietNam</h1>
+        <h1>DevT.N VietNam</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure deleniti dolores autem aliquid officia expedita quasi quibusdam cumque repudiandae hic officiis dolorem magnam dignissimos eos, illum odio debitis veniam.</p>
         <a href="#summery" className='btn-link'>Scroll For Me</a>
       </div>
@@ -16,21 +16,21 @@ const Home = () => {
         <div className="img-box">
           <img src={avatar} alt="avatar"  />
 
-          <h2>DevTN-VietNam <br /> <span>Front-end Developer</span></h2>
+          <h2>DevT.N-VietNam <br /> <span>Front-end Developer</span></h2>
 
           <div className="social">
             <a href="#!">
               <i className="fa-brands fa-facebook"></i>
             </a>
-            <a href="#!">
+            <a href="https://www.youtube.com/channel/UC6_eB5n4pTheDSuJxqGeeAw">
               <i className="fa-brands fa-youtube"></i>
             </a>
-            <a href="#!">
+            <a href="https://github.com/nguyennguyenthanh">
               <i className="fa-brands fa-github"></i>
             </a>
           </div>
 
-          <a href="#!" className='hire-me'>Hire me</a>
+          <a href="#summery" className='hire-me'>Hire me</a>
         </div>
       </div>
     </section>

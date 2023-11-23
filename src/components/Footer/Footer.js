@@ -15,11 +15,11 @@ const Footer = () => {
 
         </a>
 
-        <a href="#!">
+        <a href="https://www.youtube.com/channel/UC6_eB5n4pTheDSuJxqGeeAw">
           <i className="fa-brands fa-youtube"></i>
         </a>
 
-        <a href="#!">
+        <a href="https://github.com/nguyennguyenthanh">
           <i className="fa-brands fa-github"></i>
         </a>
       </div>

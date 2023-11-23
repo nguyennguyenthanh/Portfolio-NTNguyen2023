@@ -5,38 +5,26 @@ const Process = () => {
   const data = [
     {
       id: '01',
-      title: 'Pre-Process',
-      contents: ['Collect Infomations', 'Personas', 'Setup Goals', 'Project Folder + Moodboard']
+      title: 'Jra Software - 1 member',
+      contents: ['Sign in/Sign Up', 'Home Page', 'Feature For Create Projects', 'Feature User Infomations', 'Feature Create Account', 'Feature Add/Remove/Edit/Update Members',],
+      technicals: ['Typescript', 'Reactjs', 'Tailwind Css', 'Ant Design', 'Bootstrap', 'Scss', 'Restful API', 'Redux', 'Responsive']
     },
     {
       id: '02',
-      title: 'Pre-Process',
-      contents: ['Collect Infomations', 'Personas', 'Setup Goals', 'Project Folder + Moodboard']
+      title: 'Movie Theather - 2 members',
+      contents: ['Sign in/Sign Up', 'Home Page', 'Admin Page', 'Feature Booking Ticket', 'Feature Create Schedule Films', 'Feature Create Accounts', 'Feature Add/Remove/Edit/Update Films'],
+      technicals: ['Javascript', 'Reactjs', 'Tailwind Css', 'Ant Design', 'Bootstrap', 'Scss', 'Restful API', 'Redux', 'Responsive']
     },
     {
       id: '03',
-      title: 'Pre-Process',
-      contents: ['Collect Infomations', 'Personas', 'Setup Goals', 'Project Folder + Moodboard']
+      title: 'Phone Shop - 2 members',
+      contents: ['Home Page', 'Admin Page', 'Store Page', 'Feature Add/Remove/Edit/Update Products', 'Feature Shopping Cart'],
+      technicals: ['Javascript', 'Bootstrap', 'Scss', 'API json', 'Redux', 'Responsive']
     },
-    {
-      id: '04',
-      title: 'Pre-Process',
-      contents: ['Collect Infomations', 'Personas', 'Setup Goals', 'Project Folder + Moodboard']
-    },
-    {
-      id: '05',
-      title: 'Pre-Process',
-      contents: ['Collect Infomations', 'Personas', 'Setup Goals', 'Project Folder + Moodboard']
-    },
-    {
-      id: '06',
-      title: 'Pre-Process',
-      contents: ['Collect Infomations', 'Personas', 'Setup Goals', 'Project Folder + Moodboard']
-    }
   ]
 
   return (
-    <section id="process"  data-aos="fade">
+    <section id="process" data-aos="fade">
       <div className="process-heading" >
         <h3>Process</h3>
       </div>
@@ -46,10 +34,19 @@ const Process = () => {
             <div key={process.id} className="process-box">
               <span>{process.id}</span>
               <strong>{process.title}</strong>
-              <ul>
+              <ul style={{ fontSize: '20px' }}>
+                -Contents:
                 {
                   process.contents.map(content => (
                     <li key={content}>{content}</li>
+                  ))
+                }
+              </ul>
+              <ul style={{ fontSize: '20px' }}>
+                -Technicals:
+                {
+                  process.technicals?.map(tech => (
+                    <li key={tech}>{tech}</li>
                   ))
                 }
               </ul>
