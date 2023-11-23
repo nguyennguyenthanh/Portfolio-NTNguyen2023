@@ -70,4 +70,5 @@ const Carrer = () => {
   )
 }
 
-export default Carrer
+export default Carrer;
+
