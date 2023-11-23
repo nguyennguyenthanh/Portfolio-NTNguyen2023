@@ -11,6 +11,7 @@ const Carrer = () => {
     },
   ]
 
+  
   const educations = [
     {
       title: "Van Lang University",
