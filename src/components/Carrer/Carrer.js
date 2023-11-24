@@ -6,7 +6,7 @@ const Carrer = () => {
   const carrers = [
     {
       title: "Front-end Developer",
-      name: 'Software',
+      name: 'Software Engineer',
       year: '2022 - 2023'
     },
   ]
@@ -15,12 +15,12 @@ const Carrer = () => {
   const educations = [
     {
       title: "Van Lang University",
-      name: 'Software',
+      name: '',
       year: '2015 - 2020'
     },
     {
       title: "CyberSoft Academy",
-      name: 'Software',
+      name: 'Software Engineer',
       year: '2022 - 2023'
     },
   ]

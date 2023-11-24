@@ -18,16 +18,16 @@ import { Navigation, Pagination } from 'swiper/modules';
 const Projects = () => {
   const data = [
     {
-      src: jsphone,
-      url: '#!'
+      src: typescriptjra,
+      url: 'https://bc50-capstone-jra.vercel.app/'
     },
     {
       src: reactjsmovie,
-      url: '#!'
+      url: 'https://bc50capstone-movie.vercel.app/'
     },
     {
-      src: typescriptjra,
-      url: '#!'
+      src: jsphone,
+      url: 'https://cyberphone-capstone-bc50.vercel.app/'
     },
   ]
 
@@ -78,7 +78,7 @@ const Projects = () => {
         }
       </Swiper>
       <div className="github-btn">
-        <a href="https://github.com/nguyennguyenthanh" className='btn-link'>
+        <a href="https://github.com/nguyennguyenthanh?tab=repositories" className='btn-link'>
           My Github <i className="fa-brands fa-github"></i>
         </a>
       </div>
