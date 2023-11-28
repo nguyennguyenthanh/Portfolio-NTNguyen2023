@@ -13,9 +13,8 @@ const About = () => {
           </a>
         </div>
         <div className="about-details" data-aos="flip-right">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perspiciatis qui laborum tenetur in. Excepturi quod voluptas officiis iure reiciendis? Reiciendis eveniet nobis quae dicta ea error quidem provident commodi.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perspiciatis qui laborum tenetur in. Excepturi quod voluptas officiis iure reiciendis? Reiciendis eveniet nobis quae dicta ea error quidem provident commodi.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perspiciatis qui laborum tenetur in. Excepturi quod voluptas officiis iure reiciendis? Reiciendis eveniet nobis quae dicta ea error quidem provident commodi.</p>
+          <p>At first, I pursued programming because I liked website design because I was exposed to it every day from studying, entertainment and research. That made me very interested and I learned that to be able to design such a website, the first thing I need to do is become an FE dev.</p>
+          <p>After designing a website from an FE dev position, I realized that to complete a website I need to know more knowledge about BE dev. I was fascinated by that and I learned a lot more. More in-depth knowledge of what a website programmer needs. I'm also learning BE for myself and hope it can be of some benefit to your company's goals.</p>
         </div>
       </div>
     </section>

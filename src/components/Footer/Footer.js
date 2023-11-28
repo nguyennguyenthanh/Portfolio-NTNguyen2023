@@ -23,7 +23,7 @@ const Footer = () => {
           <i className="fa-brands fa-github"></i>
         </a>
       </div>
-      <a href="#!" className='footer-logo'>DevT.N-VietNam</a>
+      <a href="#!" className='footer-logo'>DevN.N-VietNam</a>
     </footer>
   )
 }

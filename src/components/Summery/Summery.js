@@ -5,20 +5,18 @@ import CV from './../assets/cv/cv.pdf';
 const Summery = () => {
   return (
     <section id="summery">
-      <div className="summery-heading"  data-aos="fade-right">
+      <div className="summery-heading" data-aos="fade-right">
         <strong>My Skillset</strong>
 
-        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+        <h2>Below is my CV <br /> Hope you take a look it</h2>
         <a href={CV} download className='btn-link'>
           Get CV <i className="fa-solid fa-download"></i>
         </a>
       </div>
 
-      <div className="summery-details"  data-aos="fade-left">
+      <div className="summery-details" data-aos="fade-left">
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptatum alias quasi, exercitationem rem distinctio facere hic rerum ullam eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptatum alias quasi, exercitationem rem distinctio facere hic rerum ullam eligendi.
-          Fugit, cumque! Repudiandae doloribus nostrum quidem quisquam id perferendis debitis, unde repellendus ipsa quibusdam harum asperiores, laudantium aliquam blanditiis similique.
-          Doloremque ea reiciendis facere veritatis delectus enim impedit, id facilis quis quia nisi suscipit aspernatur, nemo aliquam reprehenderit dolor qui!
+          Even though my skills aren't that impressive yet, I still hope that you can check it out. And I firmly believe that in the future I will always improve my skill set to make it better, to achieve my own goals as well as the goals and achievements that the company wants to achieve.
         </p>
       </div>
     </section>

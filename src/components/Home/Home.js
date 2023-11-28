@@ -8,13 +8,13 @@ const Home = () => {
     <section id="home">
       <div className="home-text" data-aos="fade-down">
         <strong>Hello, it's me</strong>
-        <h1>DevT.N VietNam</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure deleniti dolores autem aliquid officia expedita quasi quibusdam cumque repudiandae hic officiis dolorem magnam dignissimos eos, illum odio debitis veniam.</p>
+        <h1>DevN.N VietNam</h1>
+        <p>I have a passion for programming and I want to start with an FE position. My goal in the next 3 years is to become a Senior dev and improve my BE knowledge to become a basic full-stack dev. To achieve that, I will always upgrade my knowledge and hope to have a long-term workplace</p>
         <a href="#summery" className='btn-link'>Scroll For Me</a>
       </div>
-      <div className="home-img"  data-aos="fade-up">
+      <div className="home-img" data-aos="fade-up">
         <div className="img-box">
-          <img src={avatar} alt="avatar"  />
+          <img src={avatar} alt="avatar" />
 
           <h2>DevT.N-VietNam <br /> <span>Front-end Developer</span></h2>
 
