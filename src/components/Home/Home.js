@@ -9,14 +9,14 @@ const Home = () => {
       <div className="home-text" data-aos="fade-down">
         <strong>Hello, it's me</strong>
         <h1>DevN.N VietNam</h1>
-        <p>I have a passion for programming and I want to start with an FE position. My goal in the next 3 years is to become a Senior dev and improve my BE knowledge to become a basic full-stack dev. To achieve that, I will always upgrade my knowledge and hope to have a long-term workplace</p>
+        <p>Having passion with computer, I chose to become a professional programmer. I approached and developed my skillset starting with coding a website and I was fascinated by that. My goal in the next 2 years is to become a senior FE dev. Beside that, i will also try to learn and  improve BE knowledge to become a basic full-stack dev.</p>
         <a href="#summery" className='btn-link'>Scroll For Me</a>
       </div>
       <div className="home-img" data-aos="fade-up">
         <div className="img-box">
           <img src={avatar} alt="avatar" />
 
-          <h2>DevT.N-VietNam <br /> <span>Front-end Developer</span></h2>
+          <h2>DevN.N-VietNam <br /> <span>Front-end Developer</span></h2>
 
           <div className="social">
             <a href="#!">

@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" data-aos="fade-down">
       <strong>What's Next</strong>
       <h3>Let's Work Together!</h3>
-      <p>Hopefully my sharing above will provide you with all the necessary information about me. If suitable, please send me an email. I hope to receive a good response from you soon</p>
+      <p>If you found me appropriated with your position, please contact me. <br /> Thanks for watching to the end. It's my pleasure to collab with you.</p>
       <a href="mailto:thanhnguyennguyen1228@gmail.com" className='btn-link contact-btn'>
         Write Me An Email <i className="fa-solid fa-envelope"></i>
       </a>

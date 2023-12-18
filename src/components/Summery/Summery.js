@@ -16,7 +16,8 @@ const Summery = () => {
 
       <div className="summery-details" data-aos="fade-left">
         <p>
-          Even though my skills aren't that impressive yet, I still hope that you can check it out. And I firmly believe that in the future I will always improve my skill set to make it better, to achieve my own goals as well as the goals and achievements that the company wants to achieve.
+          Please take time to scroll till the end and have a look at my works. <br />
+          <i className='fa fa-arrow-left'/> Click on the button "Get CV" for details.
         </p>
       </div>
     </section>

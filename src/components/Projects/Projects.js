@@ -3,6 +3,11 @@ import './projects.css';
 import jsphone from './../assets/images/js.jpg'
 import reactjsmovie from './../assets/images/reactjs.jpg'
 import typescriptjra from './../assets/images/typescript.jpg'
+import nextjstravel from './../assets/images/nj.jpg'
+import graphqlhygraph from './../assets/images/graphqlhygraph.jpg'
+
+
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -28,6 +33,14 @@ const Projects = () => {
     {
       src: jsphone,
       url: 'https://cyberphone-capstone-bc50.vercel.app/'
+    },
+    {
+      src: graphqlhygraph,
+      url: 'https://hygraph-cms-graphql.vercel.app/'
+    },
+    {
+      src: nextjstravel,
+      url: 'https://next-js-travel-xi.vercel.app/'
     },
   ]
 

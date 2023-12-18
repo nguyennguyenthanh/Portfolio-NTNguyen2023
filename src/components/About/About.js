@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="about-container">
-        <div className="about-heading"  data-aos="flip-left">
+        <div className="about-heading" data-aos="flip-left">
           <strong>About me</strong>
           <h3>Designing with passion for Problem Solving</h3>
           <a href="tel: 0974567975" className='btn-link'>
@@ -13,8 +13,8 @@ const About = () => {
           </a>
         </div>
         <div className="about-details" data-aos="flip-right">
-          <p>At first, I pursued programming because I liked website design because I was exposed to it every day from studying, entertainment and research. That made me very interested and I learned that to be able to design such a website, the first thing I need to do is become an FE dev.</p>
-          <p>After designing a website from an FE dev position, I realized that to complete a website I need to know more knowledge about BE dev. I was fascinated by that and I learned a lot more. More in-depth knowledge of what a website programmer needs. I'm also learning BE for myself and hope it can be of some benefit to your company's goals.</p>
+          <p>I know programming because I like website design because I am exposed to it every day from study, entertainment and research. That makes me very excited and to make a website, I have to become a Dev.</p>
+          <p>After becoming a FE dev, I realized that to have a complete project I need more knowledge about BE dev. I learned from many social media sources and learned more in-depth knowledge about what a website developer needs. I am in need of a suitable job to strengthen my knowledge of FE dev, from there I can upgrade my knowledge of BE and become a basic full-stack.</p>
         </div>
       </div>
     </section>

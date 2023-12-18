@@ -12,6 +12,10 @@ import redux from './../assets/images/redux.jpg';
 import axios from './../assets/images/axios.jpg';
 import htmlcss from './../assets/images/htmlcss.jpg';
 import jquery from "./../assets/images/jquery.png";
+import graphql from "./../assets/images/graphql.png";
+import hygraph from "./../assets/images/hygraph.jpg";
+import nextjs from "./../assets/images/nextjs.png";
+import reactrouter from './../assets/images/rjrouter.png';
 
 
 
@@ -20,22 +24,22 @@ const Languages = () => {
     {
       title: "Software",
       contents: ['Vscode'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
     },
     {
       title: "Languages",
       contents: ['Javascript', 'Typescript'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
     },
     {
       title: "UX/UI",
-      contents: ['HTML/CSS', 'Bootstrap4', 'SASS', 'Tailwind CSS', 'Jquery'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery],
+      contents: ['HTML/CSS', 'Bootstrap4', 'SASS', 'Tailwind CSS', 'Jquery', 'GraphQL', 'Hygraph'],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
     },
     {
       title: "Framework/Lib",
-      contents: ['ReactJs', 'Ant Design', 'Redux', 'Axios'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery],
+      contents: ['ReactJs', 'NextJs', 'Ant Design', 'Redux', 'Axios', 'Router'],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
     },
   ]
 
@@ -86,6 +90,18 @@ const Languages = () => {
                       }
                       case 'Jquery': {
                         return <img src={jquery} alt="img" height={30} style={{ verticalAlign: 'middle' }} />
+                      }
+                      case 'Hygraph': {
+                        return <img src={hygraph} alt="img" height={30} style={{ verticalAlign: 'middle' }} />
+                      }
+                      case 'GraphQL': {
+                        return <img src={graphql} alt="img" height={30} style={{ verticalAlign: 'middle' }} />
+                      }
+                      case 'NextJs': {
+                        return <img src={nextjs} alt="img" height={30} style={{ verticalAlign: 'middle' }} />
+                      }
+                      case 'Router': {
+                        return <img src={reactrouter} alt="img" height={25} style={{ verticalAlign: 'middle' }} />
                       }
                       default:
                         break;
