@@ -19,7 +19,7 @@ const Home = () => {
           <h2>DevN.N-VietNam <br /> <span>Front-end Developer</span></h2>
 
           <div className="social">
-            <a href="#!">
+            <a href="https://www.facebook.com/nguyen.nguyenthanh.334">
               <i className="fa-brands fa-facebook"></i>
             </a>
             <a href="https://www.youtube.com/channel/UC6_eB5n4pTheDSuJxqGeeAw">
