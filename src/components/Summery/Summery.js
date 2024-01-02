@@ -17,7 +17,7 @@ const Summery = () => {
       <div className="summery-details" data-aos="fade-left">
         <p>
           Please take time to scroll till the end and have a look at my works. <br />
-          <i className='fa fa-arrow-left'/> Click on the button "Get CV" for details.
+          <i class="fa-solid fa-arrows-split-up-and-left" style={{fontSize:'20px'}}/> Click on the button "Get CV" for details.
         </p>
       </div>
     </section>
