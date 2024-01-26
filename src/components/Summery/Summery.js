@@ -2,6 +2,7 @@ import React from 'react';
 import './summery.css';
 import CV from './../assets/cv/cv.pdf';
 
+
 const Summery = () => {
   return (
     <section id="summery">
@@ -23,5 +24,6 @@ const Summery = () => {
     </section>
   )
 }
+
 
 export default Summery
