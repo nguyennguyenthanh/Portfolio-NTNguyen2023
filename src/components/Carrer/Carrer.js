@@ -7,21 +7,16 @@ const Carrer = () => {
     {
       title: "Front-end Developer",
       name: 'Software Engineer',
-      year: '2022 - 2023'
+      year: '2019 - Now'
     },
   ]
 
-  
+
   const educations = [
     {
-      title: "Van Lang University",
+      title: "UIT - Information Technology",
       name: '',
-      year: '2015 - 2020'
-    },
-    {
-      title: "CyberSoft Academy",
-      name: 'Software Engineer',
-      year: '2022 - 2023'
+      year: '2015 - 2019'
     },
   ]
 
@@ -29,7 +24,7 @@ const Carrer = () => {
   return (
     <section id="carrer">
       <div className="carrer-education">
-        <div className="carrer"  data-aos="fade-right">
+        <div className="carrer" data-aos="fade-right">
           <h3>Carrer</h3>
           <div className="c-b-container">
             {
@@ -44,7 +39,7 @@ const Carrer = () => {
           </div>
         </div>
 
-        <div className="carrer edu"  data-aos="fade-left">
+        <div className="carrer edu" data-aos="fade-left">
           <h3>Education</h3>
           <div className="c-b-container">
             {
@@ -59,13 +54,13 @@ const Carrer = () => {
           </div>
         </div>
 
-        
+
       </div>
       <div className="btn-c">
-          <a href={CV} download className='btn-link'>
-            Get CV <i className="fa-solid fa-download"></i>
-          </a>
-        </div>
+        <a href={CV} download className='btn-link'>
+          Get CV <i className="fa-solid fa-download"></i>
+        </a>
+      </div>
     </section>
   )
 }
