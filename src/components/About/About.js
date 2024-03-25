@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="about-details" data-aos="flip-right">
           <p>I know programming because I like website design because I am exposed to it every day from study, entertainment and research. That makes me very excited and to make a website, I have to become a Dev.</p>
-          <p>After becoming a FE dev, I realized that to have a complete project I need more knowledge about BE dev. I learned from many social media sources and learned more in-depth knowledge about what a website developer needs. I am in need of a suitable job to strengthen my knowledge of FE dev, from there I can upgrade my knowledge of BE and become a basic full-stack.</p>
+          <p>After becoming a FE dev, I realized that to have a complete project I need more knowledge about BE dev. I learned from many social media sources and learned more in-depth knowledge about what a website developer needs. I am in need of a suitable job to strengthen my knowledge of FE dev, from there I can upgrade my knowledge of BE and become a good full-stack programmer.</p>
         </div>
       </div>
     </section>

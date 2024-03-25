@@ -16,6 +16,9 @@ import graphql from "./../assets/images/graphql.png";
 import hygraph from "./../assets/images/hygraph.jpg";
 import nextjs from "./../assets/images/nextjs.png";
 import reactrouter from './../assets/images/rjrouter.png';
+import nodejs from './../assets/images/nodejs.png';
+import express from './../assets/images/express.png';
+import mongo from './../assets/images/mongo.jpg';
 
 
 
@@ -24,22 +27,22 @@ const Languages = () => {
     {
       title: "Software",
       contents: ['Vscode'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter, express, nodejs, mongo],
     },
     {
       title: "Languages",
       contents: ['Javascript', 'Typescript'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter, express, nodejs, mongo],
     },
     {
       title: "UX/UI",
-      contents: ['HTML/CSS', 'Bootstrap4', 'SASS', 'Tailwind CSS', 'Jquery', 'GraphQL', 'Hygraph'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
+      contents: ['HTML/CSS', 'Bootstrap4', 'SASS', 'Tailwind CSS', 'Jquery', 'GraphQL', 'Hygraph', 'MongoDB'],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter, express, nodejs, mongo],
     },
     {
       title: "Framework/Lib",
-      contents: ['ReactJs', 'NextJs', 'Ant Design', 'Redux', 'Axios', 'Router'],
-      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter],
+      contents: ['ReactJs', 'NextJs', 'NodeJs', 'ExpressJs', 'Ant Design', 'Redux', 'Axios', 'Router'],
+      images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter, express, nodejs, mongo],
     },
   ]
 
@@ -102,6 +105,15 @@ const Languages = () => {
                       }
                       case 'Router': {
                         return <img src={reactrouter} alt="img" height={25} style={{ verticalAlign: 'middle' }} />
+                      }
+                      case 'NodeJs': {
+                        return <img src={nodejs} alt="img" height={25} style={{ verticalAlign: 'middle' }} />
+                      }
+                      case 'ExpressJs': {
+                        return <img src={express} alt="img" height={25} style={{ verticalAlign: 'middle' }} />
+                      }
+                      case 'MongoDB': {
+                        return <img src={mongo} alt="img" height={25} style={{ verticalAlign: 'middle' }} />
                       }
                       default:
                         break;
