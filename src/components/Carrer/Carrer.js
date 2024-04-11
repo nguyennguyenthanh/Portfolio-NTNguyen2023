@@ -7,16 +7,21 @@ const Carrer = () => {
     {
       title: "Front-end Developer",
       name: 'Software Engineer',
-      year: '2019 - Now'
+      year: ''
     },
   ]
 
 
   const educations = [
     {
-      title: "UIT - Information Technology",
+      title: "CyberSoft Academy",
+      name: 'Software Engineer',
+      year: '2022 - 2023'
+    },
+    {
+      title: "Van Lang University - VLU",
       name: '',
-      year: '2015 - 2019'
+      year: '2015 - 2020'
     },
   ]
 
