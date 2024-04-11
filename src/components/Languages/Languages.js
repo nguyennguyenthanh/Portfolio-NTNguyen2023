@@ -36,12 +36,12 @@ const Languages = () => {
     },
     {
       title: "UX/UI",
-      contents: ['HTML/CSS', 'Bootstrap4', 'SASS', 'Tailwind CSS', 'Jquery', 'GraphQL', 'Hygraph', 'MongoDB'],
+      contents: ['HTML/CSS', 'Bootstrap4', 'SASS', 'Tailwind CSS', 'Jquery'],
       images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter, express, nodejs, mongo],
     },
     {
       title: "Framework/Lib",
-      contents: ['ReactJs', 'NextJs', 'NodeJs', 'ExpressJs', 'Ant Design', 'Redux', 'Axios', 'Router'],
+      contents: ['ReactJs', 'NextJs', 'NodeJs', 'ExpressJs', 'Ant Design', 'Redux', 'Axios', 'Router', 'MongoDB', 'GraphQL', 'Hygraph'],
       images: [htmlcss, BS4, Antd, tailwind, sass, reactjs, Js, vscode, typescript, axios, jquery, graphql, hygraph, nextjs, reactrouter, express, nodejs, mongo],
     },
   ]
