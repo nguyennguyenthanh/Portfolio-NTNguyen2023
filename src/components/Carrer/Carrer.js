@@ -5,7 +5,7 @@ import CV from "./../assets/cv/cv.pdf";
 const Carrer = () => {
   const carrers = [
     {
-      title: "Front-end Developer",
+      title: "Fullstack Developer",
       name: 'Software Engineer',
       year: ''
     },
@@ -14,15 +14,20 @@ const Carrer = () => {
 
   const educations = [
     {
-      title: "CyberSoft Academy",
+      title: "Uni. of Information Technology - UIT",
       name: 'Software Engineer',
-      year: '2022 - 2023'
-    },
-    {
-      title: "Van Lang University - VLU",
-      name: '',
       year: '2015 - 2020'
     },
+    // {
+    //   title: "CyberSoft Academy",
+    //   name: 'Software Engineer',
+    //   year: '2022 - 2023'
+    // },
+    // {
+    //   title: "Van Lang University - VLU",
+    //   name: '',
+    //   year: '2015 - 2020'
+    // },
   ]
 
 
