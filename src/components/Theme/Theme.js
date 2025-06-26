@@ -9,9 +9,11 @@ const Theme = () => {
     if (dark) {
       document.documentElement.style.setProperty('--bgColor', '#162052');
       document.documentElement.style.setProperty('--whiteColor', '#fff');
+      document.documentElement.style.setProperty('--grayColor', '#bbb');
     } else {
       document.documentElement.style.setProperty('--bgColor', '#fdfdfd');
       document.documentElement.style.setProperty('--whiteColor', '#000');
+      document.documentElement.style.setProperty('--grayColor', '#424242');
     }
   }, [dark])
   return (

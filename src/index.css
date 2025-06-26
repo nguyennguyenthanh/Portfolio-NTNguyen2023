@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-:root{
+:root {
   --bgColor: #162052;
   --whiteColor: #fff;
   --grayColor: #bbb;
+  --grayHighlightColor: #424242;
   --blueColor: #689af8;
 }
 
@@ -15,7 +16,7 @@
   --blueColor: #689af8;
 } */
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -23,14 +24,14 @@
   scroll-behavior: smooth;
 }
 
-body{
+body {
   width: 100%;
   background: var(--bgColor);
   position: relative;
   color: var(--whiteColor);
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 1024px;
   min-height: 100vh;
@@ -42,11 +43,11 @@ body{
   overflow: hidden;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.btn-link{
+.btn-link {
   color: var(--whiteColor);
   text-transform: uppercase;
   font-weight: 400;
@@ -58,25 +59,25 @@ a{
   cursor: pointer;
 }
 
-.btn-link:hover{
+.btn-link:hover {
   padding: 10px;
-  background: rgba(104, 154, 248, 0.102);    
+  background: rgba(104, 154, 248, 0.102);
 }
 
-section{
+section {
   margin-top: 30px;
   margin-bottom: 100px;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-h3{
+h3 {
   font-size: 3rem;
   letter-spacing: 2px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }

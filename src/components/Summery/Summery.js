@@ -1,6 +1,6 @@
 import React from 'react';
 import './summery.css';
-import CV from './../assets/cv/cv.pdf';
+import CV from './../assets/cv/NguyenCV3.pdf';
 
 
 const Summery = () => {
@@ -18,7 +18,7 @@ const Summery = () => {
       <div className="summery-details" data-aos="fade-left">
         <p>
           Please take time to scroll till the end and have a look at my works. <br />
-          <i class="fa-solid fa-arrows-split-up-and-left" style={{fontSize:'20px'}}/> Click on the button "Get CV" for details.
+          <i class="fa-solid fa-arrows-split-up-and-left" style={{ fontSize: '20px' }} /> Click on the button "Get CV" for details.
         </p>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './carrer.css';
-import CV from "./../assets/cv/cv.pdf";
+import CV from "./../assets/cv/NguyenCV3.pdf";
 
 const Carrer = () => {
   const carrers = [
@@ -18,16 +18,6 @@ const Carrer = () => {
       name: 'Software Engineer',
       year: '2015 - 2020'
     },
-    // {
-    //   title: "CyberSoft Academy",
-    //   name: 'Software Engineer',
-    //   year: '2022 - 2023'
-    // },
-    // {
-    //   title: "Van Lang University - VLU",
-    //   name: '',
-    //   year: '2015 - 2020'
-    // },
   ]
 
 

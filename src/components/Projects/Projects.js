@@ -27,14 +27,6 @@ const Projects = () => {
       url: 'https://bc50-capstone-jra.vercel.app/'
     },
     {
-      src: reactjsmovie,
-      url: 'https://bc50capstone-movie.vercel.app/'
-    },
-    {
-      src: jsphone,
-      url: 'https://cyberphone-capstone-bc50.vercel.app/'
-    },
-    {
       src: graphqlhygraph,
       url: 'https://hygraph-cms-graphql.vercel.app/'
     },

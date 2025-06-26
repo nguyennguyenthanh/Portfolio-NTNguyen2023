@@ -11,24 +11,12 @@ const Process = () => {
     },
     {
       id: '02',
-      title: 'Movie Theather - 2 members',
-      contents: ['Sign in/Sign Up', 'Home Page', 'Admin Page', 'Feature Booking Ticket', 'Feature Create Schedule Films', 'Feature Create Accounts', 'Feature Add/Remove/Edit/Update Films'],
-      technicals: ['Javascript', 'ReactJs', 'Tailwind Css', 'Ant Design', 'Bootstrap', 'SCSS', 'Restful API', 'Redux', 'Responsive', 'Router']
-    },
-    {
-      id: '03',
-      title: 'Phone Shop - 2 members',
-      contents: ['Home Page', 'Admin Page', 'Store Page', 'Feature Add/Remove/Edit/Update Products', 'Feature Shopping Cart'],
-      technicals: ['Javascript', 'Bootstrap', 'SCSS', 'API json', 'Redux', 'Responsive']
-    },
-    {
-      id: '04',
       title: 'GraphCMSHygraph - 1 member',
       contents: ['Home Page', 'Search'],
       technicals: ['ReactJs', 'Javascript', 'HTML/CSS', 'Responsive', 'Router']
     },
     {
-      id: '05',
+      id: '03',
       title: 'Travel Website - 1 member',
       contents: ['Home Page', 'Change Color'],
       technicals: ['NextJs', 'Javascript', 'HTML/CSS', 'Responsive']

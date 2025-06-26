@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <span>Copyright &copy;2023</span>
       <div className="social-links">
-        <a href="https://www.facebook.com/nguyen.nguyenthanh.334">
+        <a href="">
           <i className="fa-brands fa-facebook"></i>
         </a>
 
@@ -15,7 +15,7 @@ const Footer = () => {
 
         </a>
 
-        <a href="https://www.youtube.com/channel/UC6_eB5n4pTheDSuJxqGeeAw">
+        <a href="">
           <i className="fa-brands fa-youtube"></i>
         </a>
 
